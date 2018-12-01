@@ -1,0 +1,27 @@
+{
+ "name": "egainServer",
+ "version": "1.0.0",
+ "description": "Express server for egain",
+ "main": "app.js",
+ "scripts": {
+  "start": "node app.js",
+  "debug": "node debug app.js"
+ },
+ "author": "Nathanael Phillips",
+ "license": "ISC",
+ "dependencies": {
+  "express": "^4.16.3",
+  "jquery": "^3.3.1",
+  "mysql2": "^1.5.3",
+  "pluralize": "^7.0.0",
+  "request": "^2.88.0",
+  "save": "^2.3.2",
+  "sequelize": "^4.37.6",
+  "underscore": "^1.8.3",
+  "xml-js": "^1.6.8"
+ },
+ "repository": {
+  "type": "git",
+  "url": "https://github.com/nphilli3/egainServer.git"
+ }
+}
